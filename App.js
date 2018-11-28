@@ -21,7 +21,7 @@ export default class App extends React.Component{
     var word_arr = this.state.word.split('');
 	var v=0, c=0, n=0;
 	n = word_arr.length;
-	console.log(n);
+	console.log(n); // just a test function for me to see if split is working
 	this.setState({numbers: word_arr.length});
 		for(i=0; i< word_arr.length; i++){
 			if( word_arr[i]== 'a' || 
