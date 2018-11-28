@@ -30,33 +30,16 @@ export default class App extends React.Component{
 				word_arr[i]== 'i' ||
 				word_arr[i]== 'e' 
 			){
-        //this.setState({vowel: this.state.vowel+1});
         v= v+1;
 			}
-			/* else if( word_arr[i]== 0 || 
-				word_arr[i]== 1 ||
-				word_arr[i]== 2 ||
-				word_arr[i]== 3 ||
-				word_arr[i]== 4 ||
-				word_arr[i]== 5 ||
-				word_arr[i]== 6 ||
-				word_arr[i]== 7 ||
-				word_arr[i]== 8 ||
-				word_arr[i]== 9 
-			){
-        //this.setState({numbers: this.state.numbers+1});
-        n=n+1;
-			} */
+			
 			else{
-        //this.setState({consonants: this.state.consonants+1});
         c = c+1;
 			}
 			
       
     }	
-  /*   console.log(v);
-    console.log(n);
-    console.log(c); */
+  
     this.setState({vowel: v});
       this.setState({numbers: n});
       this.setState({consonants: c});	
